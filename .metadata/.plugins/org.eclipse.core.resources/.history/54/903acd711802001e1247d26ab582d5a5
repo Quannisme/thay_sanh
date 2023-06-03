@@ -1,0 +1,36 @@
+package BaiNhom;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import Bai_Nhom_goc.eMployee;
+
+public class EmployeeManager {
+	List<Employee> employee=new ArrayList<>();
+	Scanner sc=new Scanner(System.in);
+	public void enterInfor()
+	{
+		System.out.println("Nhap ten cua nhan vien:");
+		String n=sc.nextLine();
+		
+	}
+	public void increaseAllSalary(double amount) {
+		for (Employee i : employee) {
+			i.Increase_salary(amount);
+		}
+	}
+	public void displayEmplyee() {
+		for (Employee i : employee) {
+			System.out.println(i.toString());
+		}
+	}
+
+	public void displayInforEmployee(eMployee i) {
+		for (Employee e : employee) {
+			if (i.equals(e.getId())) {
+				System.out.println(e.toString());
+			}
+		}
+	}
+}

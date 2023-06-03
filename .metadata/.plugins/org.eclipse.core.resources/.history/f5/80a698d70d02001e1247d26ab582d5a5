@@ -1,0 +1,48 @@
+package Bai_Nhom;
+
+public class Calculator {
+	// thanh vien 1 
+//	public double calculateTotalPrice(double[] prices) {
+//////		double total = 0;
+//		//// Extract Method
+//		double total=sum(prices);
+//		for (int i = 0; i < prices.length; i++) {
+//			total += prices[i];
+//		}
+//		if (total > 100) {
+//			return total * 0.9;
+//		} else {
+//			return total;
+//		}
+//	}
+//// Extract Method
+	private double sum(double[] prices) {
+		double total = 0;
+		for (int i = 0; i < prices.length; i++) {
+			total += prices[i];
+		}
+		return total;
+	}
+	// thanh vien thu 2+ Extract Method
+	////Rename variable
+//	public double calculateTotalPrice(double [] prices)
+//	{
+//		double total=sum(prices);
+//		final double DISCOUNT_THRESHOLD=100;
+//		final double LARGE_DISCOUNT_RATE=0.9;
+//		final double SMALL_DISCOUNT_RATE=1.0;
+//		if(total>DISCOUNT_THRESHOLD) {
+//			return total* LARGE_DISCOUNT_RATE;
+//		}else {
+//			return total*SMALL_DISCOUNT_RATE;
+//		}
+//	}
+	//Replace Magic Number
+	public class Calcultor{
+		public double calculateTotalPrice(double[] prices)
+		{
+			double total=sum(prices);
+			final
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package Bai_Nhom_goc;
+
+public class main {
+public static void main() {
+	employee_manager e1=new employee_manager();
+}
+}

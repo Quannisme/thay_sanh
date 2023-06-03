@@ -1,0 +1,13 @@
+package Bai_Nhom;
+
+public class eMployee {
+	private int id;
+	private String name;
+	private double salary;
+	public eMployee(int id, String name, double salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	public void Increase
+}

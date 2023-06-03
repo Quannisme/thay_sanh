@@ -1,0 +1,30 @@
+package BaiNhom;
+
+import java.util.List;
+
+import Bai_Nhom_goc.eMployee;
+
+public class EmployeeManager {
+	List<Employee> employee;
+
+	public void increaseAllSalary(double amount) {
+		for (eMployee i : employee) {
+			i.Increase_salary(amount);
+		}
+	}
+
+	// sua lai ten bien, class
+	public void displayEmplyee() {
+		for (eMployee i : employee) {
+			System.out.println(i.toString());
+		}
+	}
+
+	public void displayInforEmployee(eMployee i) {
+		for (Employee e : employee) {
+			if (i.equals(e.getId())) {
+				System.out.println(e.toString());
+			}
+		}
+	}
+}

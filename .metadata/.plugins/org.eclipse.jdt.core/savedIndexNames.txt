@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+D:\bai_2_nhom_thuc_hanh5\.metadata\.plugins\org.eclipse.jdt.core
+19658371.index
+3959137331.index
+1865797976.index

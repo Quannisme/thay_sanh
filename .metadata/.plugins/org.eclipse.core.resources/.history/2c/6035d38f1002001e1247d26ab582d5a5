@@ -1,0 +1,20 @@
+package Bai_Nhom;
+
+public class eMployee {
+	private int id;
+	private String name;
+	private double salary;
+	public eMployee(int id, String name, double salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	public void Increase_salary(double amount)
+	{
+		this.salary+=amount;
+	}
+	@Override
+	public String toString() {
+		return "eMployee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+}
